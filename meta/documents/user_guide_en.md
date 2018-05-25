@@ -1,47 +1,30 @@
-# Ceres Vanilla – A Vanilla Theme for Ceres
+# Ceres – The new online store for plentymarkets 7
 
-**Ceres Vanilla** is a simple theme plugin that contains no style or design for Ceres. With the help of this theme, you can display your own CSS in Ceres. Furthermore, the templates of Ceres can be overridden with your own templates.
+**Ceres** is the official template plugin for the default online store of plentymarkets 7. In the new online store for plentymarkets 7, design and logic are separated from each other. Two plugins are required to integrate the online store into your plentymarkets system. The **Ceres** plugin contains the new standard design of the online store and can be customised to meet your needs. The **IO** plugin contains the logic part of the online store, is a general basis for all design plugins and can also be used by other plugins.
 
-## Displaying your own CSS
+## Setting up Ceres in plentymarkets
 
-After installing and deploying the plugin, enter your own CSS in the plugin detail view.
+Learn how to set up and customise Ceres on [plentyKnowledge](https://knowledge.plentymarkets.com/en/omni-channel/online-store/setting-up-ceres).
 
-##### Entering your own CSS:
-
-1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
-3. Click on **resources » css » main.css** in the directory tree.
-4. Enter your CSS code.  
-7. **Save** the settings.<br /> → The CSS changes will be available after deploying the plugin again.
-
-##### Activating your own CSS:
-
-1. Go to **Plugins » Content**. 
-2. Go to the **Stylesheet (CeresVanilla)** area.
-3. Select the container **Template: Style**. 
-4. **Save** the settings.<br /> → The CSS will be displayed in the online store.
-
-## Displaying your own templates
-
-**CeresVanilla** allows you to override the templates of **Ceres** with your own content. To do so, enter the code in the template and override the template. In the following, setting up the homepage is explained. Set up the other templates the same way.
-
-##### Entering the code for your own homepage:
-
-1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
-3. Click on **resources » views » Homepage » Homepage.twig** in the directory tree.
-4. Enter the code for your homepage.  
-7. **Save** the settings.<br /> → The template changes will be available after deploying the plugin again.
-
-##### Activating your own homepage:
+<div class="alert alert-warning" role="alert">
+When setting up <b>Ceres</b>, it is essential that the assigned <b>plugin position</b> of Ceres is lower than the plugin position of <b>IO</b>. Plugin positions are assigned via the <b>Set position</b> action in the plugin overview.
+</div>
 
 
-1. Go to **Plugins » Plugin overview**.<br /> → The plugin overview will open. 
-2. Click on **CeresVanilla**.<br /> → The plugin will open. 
-3. Click on **Configuration** in the directory tree.
-4. Activate **Homepage** under **Override partials and templates**.  
-7. **Save** the settings.<br /> → The homepage will be displayed.
+## Certifying the online store with Trusted Shops
+
+![](https://github.com/plentymarkets/plugin-ceres/tree/stable/meta/images/eTrusted-Partner_Certified_Software.png?raw=true)
+
+You want to certify your online store with Trusted Shops? Ceres has been pre-certified by Trusted Shops, so your certification will be handled as fast and easy as possible. Find all necessary information [here](https://www.trustedshops.de/shopbetreiber/bestellen.html?shopsoftware=PLENTYMARKETS).
+
+## Certifying the online store with EHI
+
+![](https://github.com/plentymarkets/plugin-ceres/tree/stable/meta/images/EHI-gepruefter-online-shop.png?raw=true)
+
+You want to certify your online store with EHI?
+Since Ceres has been pre-certified by EHI, your certification will be handled as fast and easy as possible. You can find all necessary information
+[here](https://ehi-siegel.de/shopbetreiber/ehi-siegel/antrag-auf-shopzertifizierung/).
 
 ## License
 
-This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. – find further information in the [LICENSE](https://github.com/plentymarkets/plugin-ceres-vanilla/blob/master/LICENSE).
+This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. – find further information in the [LICENSE.md](https://github.com/plentymarkets/plugin-ceres/blob/stable/LICENSE.md).

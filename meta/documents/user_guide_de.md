@@ -1,46 +1,29 @@
-# Ceres Vanilla – Ein Vanilla Theme für Ceres
+# Ceres – Der neue Webshop für plentymarkets 7
 
-**Ceres Vanilla** ist ein einfaches Theme-Plugin, welches noch keine Design-Anpassungen für Ceres enthält. Mithilfe des Themes kann eigenes CSS in Ceres angezeigt werden. Zudem können Templates von Ceres durch eigene Templates überschrieben werden.
+**Ceres** ist das offizielle Template-Plugin für den Standard-Webshop von plentymarkets 7. Im neuen Webshop für plentymarkets 7 sind Design und Logik voneinander getrennt. Der Webshop wird über zwei Plugins in Ihrem plentymarkets System eingebunden. Das Plugin **Ceres** beinhaltet das Standard-Design des Webshops und kann nach Ihren Wünschen angepasst werden. Das Plugin **IO** beinhaltet die Webshop-Logik, stellt eine allgemeine Grundlage für alle Design-Plugins dar und kann auch von anderen Plugins verwendet werden.
 
-## Eigenes CSS anzeigen
+## Ceres einrichten
 
-Nach Installation und Bereitstellung des Plugins geben Sie Ihr eigenes CSS in der Plugin-Detailansicht ein.
+Wie Sie Ceres einrichten und individualisieren, erfahren Sie auf [plentyKnowledge](https://knowledge.plentymarkets.com/omni-channel/online-shop/ceres-einrichten).
 
-##### Eigenes CSS eingeben:
+<div class="alert alert-warning" role="alert">
+Bei der Einrichtung von Ceres ist es notwendig, dass die zugewiesene Positionsnummer von <b>Ceres</b> kleiner ist als die Positionsnummer von <b>IO</b>. Positionsnummern werden in der Plugin-Übersicht mit der Aktion <b>Position festlegen</b> zugewiesen.
+</div>
 
-1. Öffnen Sie das Menü **Plugins » Plugin-Übersicht**.<br /> → Die Plugin-Übersicht wird geöffnet. 
-2. Klicken Sie auf **CeresVanilla**.<br /> → Das Plugin wird geöffnet. 
-3. Klicken Sie im Verzeichnisbaum auf **resources » css » main.css**.
-4. Geben Sie Ihre CSS-Änderungen ein.
-5. **Speichern** Sie die Einstellungen.<br /> → Die CSS-Änderungen werden nach der nächsten Plugin-Bereitstellung verfügbar.
+## Webshop bei Trusted Shops zertifizieren
 
-##### Eigenes CSS aktivieren:
+![](https://github.com/plentymarkets/plugin-ceres/tree/stable/meta/images/eTrusted-Partner_Certified_Software.png?raw=true)
 
-1. Öffnen Sie das Menü **Plugins » Content**.
-2. Wählen Sie den Bereich **Stylesheet (CeresVanilla)**. 
-3. Aktivieren Sie den Container **Template: Style**.
-4. **Speichern** Sie die Einstellungen.<br /> → Das CSS wird im Webshop angezeigt.
+Sie möchten Ihren Webshop bei Trusted Shops zertifizieren? Ceres ist bereits durch Trusted Shops vorzertifiziert. Dadurch geht die vollständige Zertifizierung durch Trusted Shops schnellstmöglich vonstatten. Alle dafür nötigen Informationen finden Sie [hier](https://www.trustedshops.de/shopbetreiber/bestellen.html?shopsoftware=PLENTYMARKETS).
 
-## Eigene Templates anzeigen
+## Webshop bei EHI zertifizieren
 
-**CeresVanilla** ermöglicht es Ihnen die Templates von **Ceres** mit Ihren eigenen Inhalten zu überschreiben. Geben Sie dafür Ihren Template-Code im Template ein und überschreiben Sie das Template. Dies wird nachfolgend am Beispiel der Startseite erklärt. Richten Sie andere Templates analog ein.
+![](https://github.com/plentymarkets/plugin-ceres/tree/stable/meta/images/EHI-gepruefter-online-shop.png?raw=true)
 
-##### Code für eigene Startseite eingeben:
-
-1. Öffnen Sie das Menü **Plugins » Plugin-Übersicht**.<br /> → Die Plugin-Übersicht wird geöffnet. 
-2. Klicken Sie auf **CeresVanilla**.<br /> → Das Plugin wird geöffnet. 
-3. Klicken Sie im Verzeichnisbaum auf **resources » views » Homepage » Homepage.twig**.
-4. Geben Sie den Code für die Startseite ein.
-5. **Speichern** Sie die Einstellungen.<br /> → Die Template-Anpassungen werden nach der nächsten Plugin-Bereitstellung verfügbar.
-
-##### Eigene Startseite aktivieren:
-
-1. Öffnen Sie das Menü **Plugins » Plugin-Übersicht**.<br /> → Die Plugin-Übersicht wird geöffnet. 
-2. Klicken Sie auf **CeresVanilla**.<br /> → Das Plugin wird geöffnet. 
-3. Klicken Sie im Verzeichnisbaum auf **Konfiguration**.
-4. Aktivieren Sie **Homepage** unter **Override partials and templates**.
-5. **Speichern** Sie die Einstellungen.<br /> → Die Startseite wird angezeigt.
+Sie möchten Ihren Webshop durch EHI zertifizieren lassen?
+Da Ceres bereits durch EHI vorzertifiziert ist, lässt sich die vollständige EHI-Zertifizierung schnell und einfach abwickeln.
+Alle hierfür nötigen Informationen finden Sie [hier](https://ehi-siegel.de/shopbetreiber/ehi-siegel/antrag-auf-shopzertifizierung/).
 
 ## Lizenz
 
-Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen finden Sie in der [LICENSE](https://github.com/plentymarkets/plugin-ceres-vanilla/blob/master/LICENSE).
+Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen finden Sie in der [LICENSE.md](https://github.com/plentymarkets/plugin-ceres/blob/stable/LICENSE.md).
